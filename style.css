@@ -225,8 +225,7 @@ footer {
     }
 
     .reveal-wrapper {
-        flex-direction: column;
-        gap: 1.2em;
+        gap: 0.5em;
     }
 
     #koka-character {
@@ -236,8 +235,8 @@ footer {
     .reveal-button {
         padding: 0.9em 1.8em;
         font-size: 1em;
-        width: 100%;
-        max-width: 250px;
+        width: auto;
+        max-width: none;
     }
 
     #hidden-message {

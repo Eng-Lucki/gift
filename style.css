@@ -116,7 +116,7 @@ main {
 }
 
 .reveal-wrapper {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.8em;
@@ -299,6 +299,11 @@ footer {
     #message p {
         font-size: 0.9em;
         margin: 0;
+    }
+
+    .reveal-wrapper {
+        flex-direction: row;
+        gap: 0.3em;
     }
 
     .reveal-button {
